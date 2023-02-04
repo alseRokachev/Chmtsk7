@@ -23,11 +23,29 @@ int textCheck(string str)
     }
 }
 
+int textCheckForElement(string str)
+{
+    int number;
+    string? text;
+    while (true)
+    {
+        System.Console.Write(str);
+        text = Console.ReadLine();
+        if (int.TryParse(text, out number))
+        {
+            return number;
+        }
+        System.Console.WriteLine("Некорректное число");
+    }
+}
+
 int[] askForSizeOfArray()
 {
-    int[] array = new int[2];
+    int[] array = new int[4];
     array[0] = textCheck("Введите кол-во строк массива: ");
     array[1] = textCheck("Введите кол-во столбцов массива: ");
+    array[2] = textCheckForElement("Введите мин. элмент массива: ");
+    array[3] = textCheckForElement("Введите макс. элмент массива: ");
     return array;
 }
 
@@ -39,7 +57,7 @@ double[,] fillArray(int[] arraySize)
     {
         for (int j = 0; j < arraySize[1]; j++)
         {
-            arrayChanged[i, j] = Math.Round(rand.Next(-50, 50) + rand.NextDouble(), 3);
+            arrayChanged[i, j] = Math.Round(rand.Next(arraySize[2], arraySize[3]) + rand.NextDouble(), 3);
         }
     }
     return arrayChanged;
