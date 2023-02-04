@@ -25,6 +25,24 @@ int textCheck(string str)
     }
 }
 
+int textCheckForNumb(string str) {
+      int number;
+    string? text;
+    while (true)
+    {
+        System.Console.Write(str);
+        text = Console.ReadLine();
+        if (int.TryParse(text, out number))
+        {
+            if (number > 0 && number < 11)
+            {
+                return number;
+            }
+        }
+        System.Console.WriteLine("Некорректное число");
+    }
+}
+
 int[,] fillArray(int rows, int cols)
 {
     Random rand = new Random();
@@ -75,6 +93,6 @@ void numbCheck(int element, int[,] array2D)
 int rows = textCheck("Введите кол-во строк массива: ");
 int cols = textCheck("Введите кол-во столбцов массива: ");
 int[,] array2D = fillArray(rows, cols);
-int element = textCheck("Введите число: ");
+int element = textCheckForNumb("Введите число от 1 до 10: ");
 printArray(array2D);
 numbCheck(element, array2D);
