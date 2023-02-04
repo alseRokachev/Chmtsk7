@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\obj\Debug\net7.0\ex3.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\obj\Debug\net7.0\ex3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\obj\Debug\net7.0\ex3.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\obj\Debug\net7.0\ex3.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\obj\Debug\net7.0\ex3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\bin\Debug\net7.0\ex3.exe
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\bin\Debug\net7.0\ex3.deps.json
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\bin\Debug\net7.0\ex3.runtimeconfig.json
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\bin\Debug\net7.0\ex3.dll
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\bin\Debug\net7.0\ex3.pdb
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\obj\Debug\net7.0\ex3.dll
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\obj\Debug\net7.0\refint\ex3.dll
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\obj\Debug\net7.0\ex3.pdb
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\obj\Debug\net7.0\ex3.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Chmtsk7\folder\ex3\obj\Debug\net7.0\ref\ex3.dll
